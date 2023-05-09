@@ -33,5 +33,23 @@
 */
 
                                                 /* Functional Tests */
+    
+/*
+1. A shopping cart checkout feature that allows a user to check out as a guest (without an account), or as a logged-in user. 
+  They should be allowed to do either, but should be asked if they want to create an account or log in if they check out as a guest.
 
+    - If the user wants to checkout as a guest, then they should be taken to the checkout page where they can pay for the items after clicking on a "checkout as guest" button. 
+      - A message asking the costumer if they want to create an account.
+
+    -If the costumer already has an account, then there should be a button where that will allow them to login to their account in order to do a proper chekout
+
+    -  When checking out as a guest, sensitive data such as payment methods should not be saved. 
+
+    - The customer should be asked to provide an email address so they can see their receipt as well as their tracking code.
+
+    - IF cart is empty then  a message should pop up telling the costumer that the cart is empty.
+
+
+*/
+          
 
